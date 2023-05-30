@@ -1,2 +1,2 @@
 # Todo-list
-A responsive to-do list with HTML, CSS, and JavaScript. Have fun.
+Welcome to the TodoList project! This simple web application allows you to keep track of your tasks and manage your daily activities effectively. It has been created using HTML, CSS, and JavaScript.
