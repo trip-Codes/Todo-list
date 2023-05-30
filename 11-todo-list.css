@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #0C2C44;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: wheat;
+}
+
+.todo-grid, .todo-input-grid {
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.todo-input-grid {
+    margin-bottom: 10px;
+}
+
+.app-name {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid orange;
+    letter-spacing: 0.15em;
+    animation: typing 0.8s steps(8, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 30%;
+    }
+}
+@keyframes blink-caret {
+    from, 
+    to {
+    border-color: transparent;
+    }
+    15% {
+        border-color: orange;
+    }
+}
+
+.name-input, .date-input, 
+.add-button, .delete-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-button {
+    background-color: green;
+    color: white;
+}
+.delete-button {
+    background-color: red;
+    color: white;
+}
+.name-input, .date-input {
+    background-color: #0C2C44;
+    border: 2px solid black;
+}
